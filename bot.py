@@ -408,7 +408,7 @@ def message_handler(message):
         else: # اذا كان مشترك او لم يكن بالخاص
             
             #الرجاء عدم حذف حقوق مطور السورس
-            if msg_txt.split()[0] in ['سورس','السورس'] and mainCha_subscribed(object_=message, printMsg=True):  #الرجاء عدم حذف حقوق مطور السورس
+            if msg_txt.split()[0] in ['سسسييثثثورس','السيييسورس'] and mainCha_subscribed(object_=message, printMsg=True):  #الرجاء عدم حذف حقوق مطور السورس
                 bot.send_message(chat_id=chat_id, reply_to_message_id=message.id,
                                     text="https://github.com/Awiteb/YouTube-Bot\n\ndev:@AWWWZ  cha:@Awiteb_source ⌨️", parse_mode="HTML") #الرجاء عدم حذف حقوق مطور السورس
             
